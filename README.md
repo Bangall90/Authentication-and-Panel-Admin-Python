@@ -20,9 +20,10 @@ Setelah admin berhasil login, tersedia menu:
 ## Struktur Project
 
 ```
-main.py                      # Entry point aplikas
-database.py                  # Koneksi & inisialisasi database SQLite
-users.db                     # File database SQLite (dibuat otomatis saat pertama dijalankan)
+Authentication and Panel Admin Python/
+├── main.py                      # Entry point aplikasi
+├── database.py                  # Koneksi & inisialisasi database SQLite
+├── users.db                     # File database SQLite (dibuat otomatis saat pertama dijalankan)
 ├── auth/
 │   ├── login_users.py           # Login untuk user
 │   ├── login_admin.py           # Login untuk admin
