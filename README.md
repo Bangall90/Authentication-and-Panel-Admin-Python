@@ -1,4 +1,4 @@
-# Authentication-and-Panel-Admin-Python
+# Authentication and Panel Admin Python
 Aplikasi CLI (command-line) berbasis Python untuk sistem **registrasi & login user**, lengkap dengan **panel admin** untuk mengelola data user. Data disimpan menggunakan **SQLite**.
 
 ## Fitur
