@@ -74,7 +74,6 @@ python main.py
 
 Beberapa hal yang bisa ditingkatkan bila project ini dikembangkan lebih serius:
 - **Password admin** saat ini disimpan langsung sebagai *plain text* di dalam kode — sebaiknya dihash seperti password user, atau disimpan di file/environment variable terpisah, bukan hardcoded.
-- Password admin di-*lowercase* saat pengecekan (`.lower()`), yang bisa membuat login admin case-insensitive secara tidak sengaja.
 - Tidak ada validasi panjang/kompleksitas password saat registrasi user.
 - Koneksi database (`conn`, `cursor`) dibuka secara global di `database.py`, sehingga ada baiknya ditutup dengan benar (`conn.close()`) saat aplikasi keluar.
 
